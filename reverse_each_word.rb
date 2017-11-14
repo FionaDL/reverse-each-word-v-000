@@ -1,7 +1,8 @@
 
 
 def reverse_each_word(phrase)
+  reversed= []
   phrase.each do |word|
-    word.reverse
+    reversed << word.reverse
   end
 end
